@@ -31,8 +31,8 @@
   type="toc" [mandatory]: a link to the HTML table of contents
   type="text" [mandatory]: a link to where the content of the book starts (typically after the front matter) -->
   <guide>
-    <reference type="toc" title="Table of Contents" href="toc.html"/>
-    <reference type="text" title="Beginning" href="toc.html"></reference>
+    <reference type="toc" title="Obsah" href="toc.html"/>
+    <reference type="text" title="Zákon o zbraních" href="toc.html"></reference>
   </guide>
  
 </package>

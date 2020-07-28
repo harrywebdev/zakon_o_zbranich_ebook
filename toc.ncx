@@ -1,40 +1,999 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
-"http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
- 
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+
 <ncx version="2005-1" xml:lang="en" xmlns="http://www.daisy.org/z3986/2005/ncx/">
- 
+
   <head>
-<!-- The following four metadata items are required for all NCX documents,
+    <!-- The following four metadata items are required for all NCX documents,
 including those conforming to the relaxed constraints of OPS 2.0 -->
- 
-    <meta name="dtb:uid" content="123456789X"/> <!-- same as in .opf -->
-    <meta name="dtb:depth" content="1"/> <!-- 1 or higher -->
-    <meta name="dtb:totalPageCount" content="0"/> <!-- must be 0 -->
-    <meta name="dtb:maxPageNumber" content="0"/> <!-- must be 0 -->
+
+    <meta name="dtb:uid" content="123456789X" /> <!-- same as in .opf -->
+    <meta name="dtb:depth" content="1" /> <!-- 1 or higher -->
+    <meta name="dtb:totalPageCount" content="0" /> <!-- must be 0 -->
+    <meta name="dtb:maxPageNumber" content="0" /> <!-- must be 0 -->
   </head>
- 
+
   <docTitle>
     <text>Zákon č. 119/2002 Sb., o střelných zbraních a střelivu</text>
   </docTitle>
- 
+
   <docAuthor>
     <text>Melicharek</text>
   </docAuthor>
 
-<navMap>
-	<navPoint class="toc" id="table" playOrder="1">
-		<navLabel><text>Table of Contents</text></navLabel>
-		<content src="toc.html" /> 
-	</navPoint>
-	<navPoint class="titlepage" id="L1T" playOrder="2">
-		<navLabel><text>CHAPTER 1</text></navLabel>
-		<content src="zakonozbranich.html#chapter1" /> 
-	</navPoint>
-	<navPoint class="book" id="level1-book1" playOrder="3">
-		<navLabel><text>CHAPTER 2</text></navLabel>
-		<content src="zakonozbranich.html#chapter2" />
+  <navMap>
+    <navPoint class="toc" id="obsah" playOrder="1">
+      <navLabel>
+        <text>Obsah</text>
+      </navLabel>
+      <content src="toc.html" />
     </navPoint>
-</navMap>
+    <navPoint playOrder="1" class="chapter" id="cast1">
+      <navLabel>
+        <text>ČÁST PRVNÍ – ZBRANĚ, STŘELIVO A MUNICE</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1" />
+    </navPoint>
+    <navPoint playOrder="2" class="subchapter" id="cast1-hlava1">
+      <navLabel>
+        <text>HLAVA I – ÚVODNÍ USTANOVENÍ</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava1" />
+    </navPoint>
+    <navPoint playOrder="3" class="section" id="p1">
+      <navLabel>
+        <text>§ 1 – Předmět úpravy</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p1" />
+    </navPoint>
+    <navPoint playOrder="4" class="section" id="p1a">
+      <navLabel>
+        <text>§ 1a – Vztah k právním předpisům upravujícím nakládání s výbušninami</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p1a" />
+    </navPoint>
+    <navPoint playOrder="5" class="section" id="p2">
+      <navLabel>
+        <text>§ 2 – Vymezení některých pojmů</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p2" />
+    </navPoint>
+    <navPoint playOrder="6" class="subchapter" id="cast1-hlava2">
+      <navLabel>
+        <text>HLAVA II – ZBRANĚ A STŘELIVO</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava2" />
+    </navPoint>
+    <navPoint playOrder="7" class="subchapter" id="cast1-hlava2-dil1">
+      <navLabel>
+        <text>Díl 1 – Kategorie zbraní a střeliva</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava2-dil1" />
+    </navPoint>
+    <navPoint playOrder="8" class="section" id="p3">
+      <navLabel>
+        <text>§ 3 – Rozdělení zbraní a střeliva</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p3" />
+    </navPoint>
+    <navPoint playOrder="9" class="section" id="p4">
+      <navLabel>
+        <text>§ 4 – Zbraně kategorie A</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p4" />
+    </navPoint>
+    <navPoint playOrder="10" class="section" id="p5">
+      <navLabel>
+        <text>§ 5 – Zbraně kategorie B</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p5" />
+    </navPoint>
+    <navPoint playOrder="11" class="section" id="p6">
+      <navLabel>
+        <text>§ 6 – Zbraně kategorie C</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p6" />
+    </navPoint>
+    <navPoint playOrder="12" class="section" id="p7">
+      <navLabel>
+        <text>§ 7 – Zbraně kategorie D</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p7" />
+    </navPoint>
+    <navPoint playOrder="13" class="subchapter" id="cast1-hlava2-dil2">
+      <navLabel>
+        <text>Díl 2 – Nabývání vlastnictví, držení a nošení zbraně a střeliva</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava2-dil2" />
+    </navPoint>
+    <navPoint playOrder="14" class="section" id="p8">
+      <navLabel>
+        <text>§ 8</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p8" />
+    </navPoint>
+    <navPoint playOrder="15" class="section" id="p9">
+      <navLabel>
+        <text>§ 9</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p9" />
+    </navPoint>
+    <navPoint playOrder="16" class="section" id="p10">
+      <navLabel>
+        <text>§ 10</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p10" />
+    </navPoint>
+    <navPoint playOrder="17" class="section" id="p11">
+      <navLabel>
+        <text>§ 11</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p11" />
+    </navPoint>
+    <navPoint playOrder="18" class="section" id="p12">
+      <navLabel>
+        <text>§ 12</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p12" />
+    </navPoint>
+    <navPoint playOrder="19" class="section" id="p13">
+      <navLabel>
+        <text>§ 13</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p13" />
+    </navPoint>
+    <navPoint playOrder="20" class="section" id="p14">
+      <navLabel>
+        <text>§ 14</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p14" />
+    </navPoint>
+    <navPoint playOrder="21" class="section" id="p15">
+      <navLabel>
+        <text>§ 15</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p15" />
+    </navPoint>
+    <navPoint playOrder="22" class="subchapter" id="cast1-hlava2-dil3">
+      <navLabel>
+        <text>Díl 3 – Zbrojní průkaz</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava2-dil3" />
+    </navPoint>
+    <navPoint playOrder="23" class="section" id="p16">
+      <navLabel>
+        <text>§ 16 – Zbrojní průkazy a jejich skupiny</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p16" />
+    </navPoint>
+    <navPoint playOrder="24" class="section" id="p17">
+      <navLabel>
+        <text>§ 17 – Vydání zbrojního průkazu</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p17" />
+    </navPoint>
+    <navPoint playOrder="25" class="section" id="p18">
+      <navLabel>
+        <text>§ 18</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p18" />
+    </navPoint>
+    <navPoint playOrder="26" class="section" id="p19">
+      <navLabel>
+        <text>§ 19 – Věková hranice pro vydání zbrojního průkazu</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p19" />
+    </navPoint>
+    <navPoint playOrder="27" class="section" id="p20">
+      <navLabel>
+        <text>§ 20 – Zdravotní způsobilost</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p20" />
+    </navPoint>
+    <navPoint playOrder="28" class="section" id="p20a">
+      <navLabel>
+        <text>§ 20a</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p20a" />
+    </navPoint>
+    <navPoint playOrder="29" class="section" id="p21">
+      <navLabel>
+        <text>§ 21 – Odborná způsobilost žadatele o zbrojní průkaz skupiny A až E</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p21" />
+    </navPoint>
+    <navPoint playOrder="30" class="section" id="p21a">
+      <navLabel>
+        <text>§ 21a – Podání přihlášky ke zkoušce odborné způsobilosti žadatelem, který není držitelem zbrojního průkazu nebomuničního průkazu </text>
+      </navLabel>
+      <content src="zakonozbranich.html#p21a" />
+    </navPoint>
+    <navPoint playOrder="31" class="section" id="p22">
+      <navLabel>
+        <text>§ 22 – Bezúhonnost fyzické osoby</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p22" />
+    </navPoint>
+    <navPoint playOrder="32" class="section" id="p23">
+      <navLabel>
+        <text>§ 23 – Spolehlivost fyzické osoby</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p23" />
+    </navPoint>
+    <navPoint playOrder="33" class="section" id="p24">
+      <navLabel>
+        <text>§ 24 – Vydání nového zbrojního průkazu</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p24" />
+    </navPoint>
+    <navPoint playOrder="34" class="section" id="p25">
+      <navLabel>
+        <text>§ 25 – Rozšíření skupin zbrojního průkazu</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p25" />
+    </navPoint>
+    <navPoint playOrder="35" class="section" id="p26">
+      <navLabel>
+        <text>§ 26 – Zánik platnosti zbrojního průkazu</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p26" />
+    </navPoint>
+    <navPoint playOrder="36" class="section" id="p26a">
+      <navLabel>
+        <text>§ 26a – Vzdání se zbrojního průkazu</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p26a" />
+    </navPoint>
+    <navPoint playOrder="37" class="section" id="p27">
+      <navLabel>
+        <text>§ 27, 27a – Odnětí zbrojního průkazu</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p27" />
+    </navPoint>
+    <navPoint playOrder="38" class="section" id="p28">
+      <navLabel>
+        <text>§ 28 – Oprávnění držitelů zbrojních průkazů</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p28" />
+    </navPoint>
+    <navPoint playOrder="39" class="section" id="p29">
+      <navLabel>
+        <text>§ 29 – Povinnosti držitele zbrojního průkazu</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p29" />
+    </navPoint>
+    <navPoint playOrder="40" class="section" id="p30">
+      <navLabel>
+        <text>§ 30 – Zkušební komisař</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p30" />
+    </navPoint>
+    <navPoint playOrder="41" class="section" id="p30a">
+      <navLabel>
+        <text>§ 30a – Zánik platnosti průkazu zkušebního komisaře</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p30a" />
+    </navPoint>
+    <navPoint playOrder="42" class="subchapter" id="cast1-hlava2-dil4">
+      <navLabel>
+        <text>Díl 4 – Zbrojní licence</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava2-dil4" />
+    </navPoint>
+    <navPoint playOrder="43" class="section" id="p31">
+      <navLabel>
+        <text>§ 31 – Zbrojní licence a jejich skupiny</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p31" />
+    </navPoint>
+    <navPoint playOrder="44" class="section" id="p32">
+      <navLabel>
+        <text>§ 32 – Náležitosti žádosti o vydání zbrojní licence</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p32" />
+    </navPoint>
+    <navPoint playOrder="45" class="section" id="p33">
+      <navLabel>
+        <text>§ 33 – Vydání zbrojní licence</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p33" />
+    </navPoint>
+    <navPoint playOrder="46" class="section" id="p34">
+      <navLabel>
+        <text>§ 34 – Prověřování bezúhonnosti a spolehlivosti</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p34" />
+    </navPoint>
+    <navPoint playOrder="47" class="section" id="p35">
+      <navLabel>
+        <text>§ 35 – Rozšíření skupin zbrojní licence</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p35" />
+    </navPoint>
+    <navPoint playOrder="48" class="section" id="p36">
+      <navLabel>
+        <text>§ 36 – Odnětí zbrojní licence</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p36" />
+    </navPoint>
+    <navPoint playOrder="49" class="section" id="p37">
+      <navLabel>
+        <text>§ 37 – Zánik platnosti zbrojní licence</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p37" />
+    </navPoint>
+    <navPoint playOrder="50" class="section" id="p38">
+      <navLabel>
+        <text>§ 38 – Oprávnění držitele zbrojní licence</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p38" />
+    </navPoint>
+    <navPoint playOrder="51" class="section" id="p39">
+      <navLabel>
+        <text>§ 39 – Povinnosti držitele zbrojní licence</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p39" />
+    </navPoint>
+    <navPoint playOrder="52" class="section" id="p39a">
+      <navLabel>
+        <text>§ 39a – Způsob vedení a obsah evidencí některých zbraní a střeliva, evidence vydaných a přijatých zbraní a střeliva a evidence o provedených střelbách </text>
+      </navLabel>
+      <content src="zakonozbranich.html#p39a" />
+    </navPoint>
+    <navPoint playOrder="53" class="section" id="p40">
+      <navLabel>
+        <text>§ 40 – Povinnosti zbrojíře</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p40" />
+    </navPoint>
+    <navPoint playOrder="54" class="subchapter" id="cast1-hlava2-dil5">
+      <navLabel>
+        <text>Díl 5 – Registrace a průkaz zbraně</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava2-dil5" />
+    </navPoint>
+    <navPoint playOrder="55" class="section" id="p41">
+      <navLabel>
+        <text>§ 41</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p41" />
+    </navPoint>
+    <navPoint playOrder="56" class="section" id="p42">
+      <navLabel>
+        <text>§ 42</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p42" />
+    </navPoint>
+    <navPoint playOrder="57" class="section" id="p42a">
+      <navLabel>
+        <text>§ 42a</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p42a" />
+    </navPoint>
+    <navPoint playOrder="58" class="section" id="p43">
+      <navLabel>
+        <text>§ 43</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p43" />
+    </navPoint>
+    <navPoint playOrder="59" class="subchapter" id="cast1-hlava2-dil6">
+      <navLabel>
+        <text>Díl 6 – Vývoz, dovoz a tranzit zbraní a střeliva</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava2-dil6" />
+    </navPoint>
+    <navPoint playOrder="60" class="section" id="p44">
+      <navLabel>
+        <text>§ 44 – Trvalý vývoz zbraní a střeliva</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p44" />
+    </navPoint>
+    <navPoint playOrder="61" class="section" id="p45">
+      <navLabel>
+        <text>§ 45 – Trvalý dovoz zbraní a střeliva</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p45" />
+    </navPoint>
+    <navPoint playOrder="62" class="section" id="p46">
+      <navLabel>
+        <text>§ 46 – Tranzit zbraní a střeliva</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p46" />
+    </navPoint>
+    <navPoint playOrder="63" class="section" id="p47">
+      <navLabel>
+        <text>§ 47 – Zánik platnosti zbrojního průvodního listu pro trvalý vývoz, trvalý dovoz nebo tranzit zbraní nebo střeliva </text>
+      </navLabel>
+      <content src="zakonozbranich.html#p47" />
+    </navPoint>
+    <navPoint playOrder="64" class="section" id="p48">
+      <navLabel>
+        <text>§ 48 – Odnětí zbrojního průvodního listu pro trvalý vývoz, trvalý dovoz nebo tranzit zbraní nebo střeliva </text>
+      </navLabel>
+      <content src="zakonozbranich.html#p48" />
+    </navPoint>
+    <navPoint playOrder="65" class="section" id="p49">
+      <navLabel>
+        <text>§ 49 – Evropský zbrojní pas</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p49" />
+    </navPoint>
+    <navPoint playOrder="66" class="section" id="p50">
+      <navLabel>
+        <text>§ 50 – Přeprava zbraní a střeliva podnikatelem v oboru zbraní a střeliva</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p50" />
+    </navPoint>
+    <navPoint playOrder="67" class="section" id="p50a">
+      <navLabel>
+        <text>§ 50a – Hlášení přepravy zbraní a střeliva podnikatelem v oboru zbraní a střeliva </text>
+      </navLabel>
+      <content src="zakonozbranich.html#p50a" />
+    </navPoint>
+    <navPoint playOrder="68" class="section" id="p50b">
+      <navLabel>
+        <text>§ 50b – Zabezpečení zbraní a střeliva v průběhu přepravy</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p50b" />
+    </navPoint>
+    <navPoint playOrder="69" class="section" id="p51">
+      <navLabel>
+        <text>§ 51 – Ustanovení společná pro trvalý vývoz, trvalý dovoz a tranzit zbraní a střeliva </text>
+      </navLabel>
+      <content src="zakonozbranich.html#p51" />
+    </navPoint>
+    <navPoint playOrder="70" class="subchapter" id="cast1-hlava2-dil7">
+      <navLabel>
+        <text>Díl 7 – Střelnice</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava2-dil7" />
+    </navPoint>
+    <navPoint playOrder="71" class="section" id="p52">
+      <navLabel>
+        <text>§ 52 – Provozování střelnic</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p52" />
+    </navPoint>
+    <navPoint playOrder="72" class="section" id="p53">
+      <navLabel>
+        <text>§ 53 – Pozastavení provozování střelnice</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p53" />
+    </navPoint>
+    <navPoint playOrder="73" class="section" id="p54">
+      <navLabel>
+        <text>§ 54 – Povinnosti provozovatele střelnice</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p54" />
+    </navPoint>
+    <navPoint playOrder="74" class="section" id="p55">
+      <navLabel>
+        <text>§ 55 – Správce střelnice</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p55" />
+    </navPoint>
+    <navPoint playOrder="75" class="subchapter" id="cast1-hlava2-dil8">
+      <navLabel>
+        <text>Díl 8 – Zvláštní ustanovení o nakládání se zbraněmi a střelivem</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava2-dil8" />
+    </navPoint>
+    <navPoint playOrder="76" class="section" id="p56">
+      <navLabel>
+        <text>§ 56 – Zadržení zbraně, střeliva nebo dokladu</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p56" />
+    </navPoint>
+    <navPoint playOrder="77" class="section" id="p57">
+      <navLabel>
+        <text>§ 57 – Zajištění zbraně, střeliva nebo dokladu</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p57" />
+    </navPoint>
+    <navPoint playOrder="78" class="section" id="p57a">
+      <navLabel>
+        <text>§ 57a – Odstranění střeliva</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p57a" />
+    </navPoint>
+    <navPoint playOrder="79" class="section" id="p58">
+      <navLabel>
+        <text>§ 58 – Zabezpečení zbraní a střeliva</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p58" />
+    </navPoint>
+    <navPoint playOrder="80" class="section" id="p59">
+      <navLabel>
+        <text>§ 59 – Svěření zbraně</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p59" />
+    </navPoint>
+    <navPoint playOrder="81" class="section" id="p60">
+      <navLabel>
+        <text>§ 60 – Držení a nošení zbraní při zvláštních příležitostech</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p60" />
+    </navPoint>
+    <navPoint playOrder="82" class="section" id="p61">
+      <navLabel>
+        <text>§ 61 – Veřejné vystavování zbraní a střeliva</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p61" />
+    </navPoint>
+    <navPoint playOrder="83" class="section" id="p62">
+      <navLabel>
+        <text>§ 62</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p62" />
+    </navPoint>
+    <navPoint playOrder="84" class="section" id="p63">
+      <navLabel>
+        <text>§ 63 – Znehodnocování a ničení zbraní a střeliva a výroba řezů zbraní a střeliva</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p63" />
+    </navPoint>
+    <navPoint playOrder="85" class="section" id="p64">
+      <navLabel>
+        <text>§ 64 – Postup držitele zbrojního průkazu, zbrojní licence nebo zbrojního průvodního listu pro trvalý vývoz zbraně nebo střeliva po zániku jejich platnosti </text>
+      </navLabel>
+      <content src="zakonozbranich.html#p64" />
+    </navPoint>
+    <navPoint playOrder="86" class="section" id="p65">
+      <navLabel>
+        <text>§ 65 – Úmrtí držitele zbraně nebo střeliva</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p65" />
+    </navPoint>
+    <navPoint playOrder="87" class="section" id="p66">
+      <navLabel>
+        <text>§ 66 – Dědění zbraně nebo střeliva</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p66" />
+    </navPoint>
+    <navPoint playOrder="88" class="section" id="p66a">
+      <navLabel>
+        <text>§ 66a – Úmrtí provozovatele střelnice</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p66a" />
+    </navPoint>
+    <navPoint playOrder="89" class="section" id="p67">
+      <navLabel>
+        <text>§ 67 – Oznámení o propadnutí nebo zabrání zbraně, hlavní části zbraně, zakázaného doplňku zbraně nebo střeliva </text>
+      </navLabel>
+      <content src="zakonozbranich.html#p67" />
+    </navPoint>
+    <navPoint playOrder="90" class="section" id="p68">
+      <navLabel>
+        <text>§ 68 – Nálezy dokladů nebo zbraní</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p68" />
+    </navPoint>
+    <navPoint playOrder="91" class="section" id="p69">
+      <navLabel>
+        <text>§ 69 – Nakládání s černým loveckým prachem, bezdýmným prachem a zápalkami a přebíjení nábojů </text>
+      </navLabel>
+      <content src="zakonozbranich.html#p69" />
+    </navPoint>
+    <navPoint playOrder="92" class="subchapter" id="cast1-hlava3">
+      <navLabel>
+        <text>HLAVA III – MUNICE A PYROTECHNICKÝ PRŮZKUM</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava3" />
+    </navPoint>
+    <navPoint playOrder="93" class="subchapter" id="cast1-hlava3-dil1">
+      <navLabel>
+        <text>Díl 1 – Obecná ustanovení o munici</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava3-dil1" />
+    </navPoint>
+    <navPoint playOrder="94" class="section" id="p70">
+      <navLabel>
+        <text>§ 70</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70" />
+    </navPoint>
+    <navPoint playOrder="95" class="section" id="p70a">
+      <navLabel>
+        <text>§ 70a</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70a" />
+    </navPoint>
+    <navPoint playOrder="96" class="subchapter" id="cast1-hlava3-dil2">
+      <navLabel>
+        <text>Díl 2 – Muniční průkaz</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava3-dil2" />
+    </navPoint>
+    <navPoint playOrder="97" class="section" id="p70b">
+      <navLabel>
+        <text>§ 70b</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70b" />
+    </navPoint>
+    <navPoint playOrder="98" class="section" id="p70c">
+      <navLabel>
+        <text>§ 70c – Řízení ve věcech muničního průkazu</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70c" />
+    </navPoint>
+    <navPoint playOrder="99" class="section" id="p70d">
+      <navLabel>
+        <text>§ 70d – Vydání muničního průkazu</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70d" />
+    </navPoint>
+    <navPoint playOrder="100" class="section" id="p70e">
+      <navLabel>
+        <text>§ 70e</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70e" />
+    </navPoint>
+    <navPoint playOrder="101" class="section" id="p70f">
+      <navLabel>
+        <text>§ 70f – Odborná způsobilost žadatele o vydání vyššího muničního průkazu a žadatele o vydání průkazu pro provádění pyrotechnického průzkumu </text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70f" />
+    </navPoint>
+    <navPoint playOrder="102" class="section" id="p70g">
+      <navLabel>
+        <text>§ 70g – Další požadavky na bezúhonnost a spolehlivost žadatele o muniční průkaz</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70g" />
+    </navPoint>
+    <navPoint playOrder="103" class="section" id="p70h">
+      <navLabel>
+        <text>§ 70h – Povinnosti držitele muničního průkazu</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70h" />
+    </navPoint>
+    <navPoint playOrder="104" class="subchapter" id="cast1-hlava3-dil3">
+      <navLabel>
+        <text>Díl 3 – Muniční licence</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava3-dil3" />
+    </navPoint>
+    <navPoint playOrder="105" class="section" id="p70i">
+      <navLabel>
+        <text>§ 70i</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70i" />
+    </navPoint>
+    <navPoint playOrder="106" class="section" id="p70j">
+      <navLabel>
+        <text>§ 70j – Vydání muniční licence</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70j" />
+    </navPoint>
+    <navPoint playOrder="107" class="section" id="p70k">
+      <navLabel>
+        <text>§ 70k – Prověřování bezúhonnosti a spolehlivosti</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70k" />
+    </navPoint>
+    <navPoint playOrder="108" class="section" id="p70l">
+      <navLabel>
+        <text>§ 70l – Řízení ve věcech muniční licence</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70l" />
+    </navPoint>
+    <navPoint playOrder="109" class="section" id="p70m">
+      <navLabel>
+        <text>§ 70m – Povinnosti držitele muniční licence</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70m" />
+    </navPoint>
+    <navPoint playOrder="110" class="subchapter" id="cast1-hlava3-dil4">
+      <navLabel>
+        <text>Díl 4 – Některá ustanovení o nakládání s municí</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava3-dil4" />
+    </navPoint>
+    <navPoint playOrder="111" class="section" id="p70n">
+      <navLabel>
+        <text>§ 70n – Přeprava munice</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70n" />
+    </navPoint>
+    <navPoint playOrder="112" class="section" id="p70o">
+      <navLabel>
+        <text>§ 70o – Odpalování, střelba a ničení munice</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70o" />
+    </navPoint>
+    <navPoint playOrder="113" class="section" id="p70p">
+      <navLabel>
+        <text>§ 70p – Zadržení a zajištění munice nebo dokladu</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70p" />
+    </navPoint>
+    <navPoint playOrder="114" class="section" id="p70q">
+      <navLabel>
+        <text>§ 70q – Odstranění munice</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70q" />
+    </navPoint>
+    <navPoint playOrder="115" class="section" id="p70r">
+      <navLabel>
+        <text>§ 70r – Muniční skladiště</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70r" />
+    </navPoint>
+    <navPoint playOrder="116" class="subchapter" id="cast1-hlava3-dil5">
+      <navLabel>
+        <text>Díl 5 – Pyrotechnický průzkum</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava3-dil5" />
+    </navPoint>
+    <navPoint playOrder="117" class="section" id="p70s">
+      <navLabel>
+        <text>§ 70s</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70s" />
+    </navPoint>
+    <navPoint playOrder="118" class="subchapter" id="cast1-hlava3-dil6">
+      <navLabel>
+        <text>Díl 6 – Nález dokladu, munice, střeliva nebo výbušniny</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava3-dil6" />
+    </navPoint>
+    <navPoint playOrder="119" class="section" id="p70t">
+      <navLabel>
+        <text>§ 70t</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p70t" />
+    </navPoint>
+    <navPoint playOrder="120" class="subchapter" id="cast1-hlava4">
+      <navLabel>
+        <text>HLAVA IV – INFORMAČNÍ SYSTÉMY A STÁTNÍ SPRÁVA</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava4" />
+    </navPoint>
+    <navPoint playOrder="121" class="subchapter" id="cast1-hlava4-dil1">
+      <navLabel>
+        <text>Díl 1 – Vedení a využívání informačních systémů</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava4-dil1" />
+    </navPoint>
+    <navPoint playOrder="122" class="section" id="p71">
+      <navLabel>
+        <text>§ 71 – Informační systémy o zbraních, střelivu a provozovaných střelnicích</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p71" />
+    </navPoint>
+    <navPoint playOrder="123" class="section" id="p72">
+      <navLabel>
+        <text>§ 72 – Uchovávání údajů a dokumentace</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p72" />
+    </navPoint>
+    <navPoint playOrder="124" class="section" id="p73">
+      <navLabel>
+        <text>§ 73 – Poskytování údajů</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p73" />
+    </navPoint>
+    <navPoint playOrder="125" class="section" id="p73a">
+      <navLabel>
+        <text>§ 73a – Centrální registr zbraní</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p73a" />
+    </navPoint>
+    <navPoint playOrder="126" class="section" id="p73b">
+      <navLabel>
+        <text>§ 73b – Využívání údajů ze základního registru obyvatel, informačního systému evidence obyvatel a informačního systému cizinců </text>
+      </navLabel>
+      <content src="zakonozbranich.html#p73b" />
+    </navPoint>
+    <navPoint playOrder="127" class="subchapter" id="cast1-hlava4-dil2">
+      <navLabel>
+        <text>Díl 2 – Výkon státní správy</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava4-dil2" />
+    </navPoint>
+    <navPoint playOrder="128" class="section" id="p74">
+      <navLabel>
+        <text>§ 74 – Kontrola vykonávaná policií</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p74" />
+    </navPoint>
+    <navPoint playOrder="129" class="section" id="p75">
+      <navLabel>
+        <text>§ 75</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p75" />
+    </navPoint>
+    <navPoint playOrder="130" class="section" id="p75a">
+      <navLabel>
+        <text>§ 75a</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p75a" />
+    </navPoint>
+    <navPoint playOrder="131" class="section" id="p75b">
+      <navLabel>
+        <text>§ 75b – Opatření k nápravě</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p75b" />
+    </navPoint>
+    <navPoint playOrder="132" class="section" id="p75c">
+      <navLabel>
+        <text>§ 75c – Oprávnění příslušníka policie</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p75c" />
+    </navPoint>
+    <navPoint playOrder="133" class="subchapter" id="cast1-hlava5">
+      <navLabel>
+        <text>HLAVA V – PŘESTUPKY</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava5" />
+    </navPoint>
+    <navPoint playOrder="134" class="subchapter" id="cast1-hlava5-dil1">
+      <navLabel>
+        <text>Díl 1 – Přestupky na úseku zbraní a střeliva</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava5-dil1" />
+    </navPoint>
+    <navPoint playOrder="135" class="section" id="p76">
+      <navLabel>
+        <text>§ 76 – Přestupky fyzických osob</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p76" />
+    </navPoint>
+    <navPoint playOrder="136" class="section" id="p76a">
+      <navLabel>
+        <text>§ 76a</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p76a" />
+    </navPoint>
+    <navPoint playOrder="137" class="section" id="p76b">
+      <navLabel>
+        <text>§ 76b</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p76b" />
+    </navPoint>
+    <navPoint playOrder="138" class="section" id="p76c">
+      <navLabel>
+        <text>§ 76c – Přestupky právnických a podnikajících fyzických osob</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p76c" />
+    </navPoint>
+    <navPoint playOrder="139" class="section" id="p76d">
+      <navLabel>
+        <text>§ 76d</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p76d" />
+    </navPoint>
+    <navPoint playOrder="140" class="subchapter" id="cast1-hlava5-dil2">
+      <navLabel>
+        <text>Díl 2 – Přestupky na úseku munice</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava5-dil2" />
+    </navPoint>
+    <navPoint playOrder="141" class="section" id="p76e">
+      <navLabel>
+        <text>§ 76e – Přestupky fyzických osob</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p76e" />
+    </navPoint>
+    <navPoint playOrder="142" class="section" id="p76f">
+      <navLabel>
+        <text>§ 76f – Přestupky právnických a podnikajících fyzických osob</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p76f" />
+    </navPoint>
+    <navPoint playOrder="143" class="subchapter" id="cast1-hlava5-dil3">
+      <navLabel>
+        <text>Díl 3 – Společná ustanovení k přestupkům</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava5-dil3" />
+    </navPoint>
+    <navPoint playOrder="144" class="section" id="p77">
+      <navLabel>
+        <text>§ 77 – Příslušnost k projednání přestupků</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p77" />
+    </navPoint>
+    <navPoint playOrder="145" class="section" id="p77a">
+      <navLabel>
+        <text>§ 77a – Příkaz na místě</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p77a" />
+    </navPoint>
+    <navPoint playOrder="146" class="section" id="p77b">
+      <navLabel>
+        <text>§ 77b – Evidence přestupků</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p77b" />
+    </navPoint>
+    <navPoint playOrder="147" class="subchapter" id="cast1-hlava6">
+      <navLabel>
+        <text>HLAVA VI – USTANOVENÍ SPOLEČNÁ</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava6" />
+    </navPoint>
+    <navPoint playOrder="148" class="section" id="p78">
+      <navLabel>
+        <text>§ 78</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p78" />
+    </navPoint>
+    <navPoint playOrder="149" class="section" id="p79">
+      <navLabel>
+        <text>§ 79 – Zmocňovací ustanovení</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p79" />
+    </navPoint>
+    <navPoint playOrder="150" class="subchapter" id="cast1-hlava7">
+      <navLabel>
+        <text>HLAVA VII – USTANOVENÍ PŘECHODNÁ</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast1-hlava7" />
+    </navPoint>
+    <navPoint playOrder="151" class="section" id="p80">
+      <navLabel>
+        <text>§ 80</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p80" />
+    </navPoint>
+    <navPoint playOrder="152" class="section" id="p81">
+      <navLabel>
+        <text>§ 81</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p81" />
+    </navPoint>
+    <navPoint playOrder="153" class="section" id="p82">
+      <navLabel>
+        <text>§ 82</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p82" />
+    </navPoint>
+    <navPoint playOrder="154" class="section" id="p83">
+      <navLabel>
+        <text>§ 83 – Zrušovací ustanovení</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p83" />
+    </navPoint>
+    <navPoint playOrder="155" class="chapter" id="cast2">
+      <navLabel>
+        <text>ČÁST DRUHÁ – Změna zákona č. 156/2000 Sb.</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast2" />
+    </navPoint>
+    <navPoint playOrder="156" class="section" id="p84">
+      <navLabel>
+        <text>§ 84</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p84" />
+    </navPoint>
+    <navPoint playOrder="157" class="chapter" id="cast3">
+      <navLabel>
+        <text>ČÁST TŘETÍ – Změna živnostenského zákona</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast3" />
+    </navPoint>
+    <navPoint playOrder="158" class="section" id="p85">
+      <navLabel>
+        <text>§ 85</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p85" />
+    </navPoint>
+    <navPoint playOrder="159" class="section" id="p86">
+      <navLabel>
+        <text>§ 86 – Přechodná ustanovení</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p86" />
+    </navPoint>
+    <navPoint playOrder="160" class="chapter" id="cast4">
+      <navLabel>
+        <text>ČÁST ČTVRTÁ – ÚČINNOST</text>
+      </navLabel>
+      <content src="zakonozbranich.html#cast4" />
+    </navPoint>
+    <navPoint playOrder="161" class="section" id="p87">
+      <navLabel>
+        <text>§ 87</text>
+      </navLabel>
+      <content src="zakonozbranich.html#p87" />
+    </navPoint>
+  </navMap>
 
 </ncx>

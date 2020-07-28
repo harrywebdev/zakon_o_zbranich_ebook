@@ -2,14 +2,14 @@
 <package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId">
  
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
-    <dc:title>My Kindle Book</dc:title>
-    <dc:language>en</dc:language>
+    <dc:title>Zákon č. 119/2002 Sb., o střelných zbraních a střelivu</dc:title>
+    <dc:language>cs</dc:language>
     <dc:identifier id="BookId" opf:scheme="ISBN">123456789X</dc:identifier>
-    <dc:creator opf:file-as="Garvin, Perry" opf:role="aut">Perry Garvin</dc:creator>
+    <dc:creator opf:file-as="Melicharek" opf:role="aut">Melicharek</dc:creator>
     <dc:publisher>Amazon.com</dc:publisher>
     <dc:subject>Reference</dc:subject>
-    <dc:date>2011-12-07</dc:date>
-    <dc:description>A short paragraph describing the publication … </dc:description>
+    <dc:date>2020-07-28</dc:date>
+    <dc:description>Zákon o střelných zbraních a střelivu a o změně zákona č. 156/2000 Sb., o ověřování střelných zbraní, střeliva a pyrotechnických předmětů a o změně zákona č. 288/1995 Sb., o střelných zbraních a střelivu (zákon o střelných zbraních), ve znění zákona č. 13/1998 Sb., a zákona č. 368/1992 Sb., o správních poplatcích, ve znění pozdějších předpisů, a zákona č. 455/1991 Sb., o živnostenském podnikání (živnostenský zákon), ve znění pozdějších předpisů, (zákon o zbraních)</dc:description>
     <meta name="cover" content="my-cover-image" />
   </metadata>
  

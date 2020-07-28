@@ -10,7 +10,7 @@
     <dc:subject>Reference</dc:subject>
     <dc:date>2020-07-28</dc:date>
     <dc:description>Zákon o střelných zbraních a střelivu a o změně zákona č. 156/2000 Sb., o ověřování střelných zbraní, střeliva a pyrotechnických předmětů a o změně zákona č. 288/1995 Sb., o střelných zbraních a střelivu (zákon o střelných zbraních), ve znění zákona č. 13/1998 Sb., a zákona č. 368/1992 Sb., o správních poplatcích, ve znění pozdějších předpisů, a zákona č. 455/1991 Sb., o živnostenském podnikání (živnostenský zákon), ve znění pozdějších předpisů, (zákon o zbraních)</dc:description>
-    <meta name="cover" content="my-cover-image" />
+    <meta name="cover" content="cover-image" />
   </metadata>
  
   <manifest>
@@ -18,7 +18,7 @@
     <item id="book" href="zakonozbranich.html" media-type="application/xhtml+xml"/>
     <item id="stylesheet" href="style.css" media-type="text/css"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>  
-    <item id="my-cover-image" href="cover.png" media-type="image/png" />
+    <item id="cover-image" href="cover.png" media-type="image/png" />
   </manifest>
  
   <!-- Each itemref references the id of a document designated in the manifest. The order of the itemref elements organizes the associated content files into the linear reading order of the publication.  -->

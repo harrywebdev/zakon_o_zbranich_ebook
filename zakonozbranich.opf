@@ -16,7 +16,6 @@
   <manifest>
     <item id="tc" href="toc.html" media-type="application/xhtml+xml"/>
     <item id="book" href="zakonozbranich.html" media-type="application/xhtml+xml"/>
-    <item id="stylesheet" href="style.css" media-type="text/css"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>  
     <item id="cover-image" href="cover.png" media-type="image/png" />
   </manifest>
